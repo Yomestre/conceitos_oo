@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe ContaPoupanca do
   it "deveria não cobrar taxa no deposito" do
-    pending
     conta = conta_poupanca
     saldo_anterior = conta.saldo
     valor_deposito = 200
@@ -11,7 +10,6 @@ describe ContaPoupanca do
   end
 
   it "deveria adicionar juros quando atualizada" do
-    pending
     conta = conta_poupanca
     saldo_anterior = conta.saldo
     juros = 0.005
